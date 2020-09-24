@@ -20,31 +20,42 @@ body {
   border-color: beige;
 }
 .outer-square {
+  border-radius: 12.5%;
   width: 360px;
   height: 360px;
   background-color: rgb(42, 43, 40);
 }
 
 .inner-square {
+  border-radius: 25%;
   width: 200px;
   height: 200px;
   background-color: red;
 }
 
 .inner-inner-circle {
+  background-image: url("https://images.unsplash.com/photo-1504433374832-4fcf45f40967?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80")
   background-color: blue;
   border-radius: 50%;
   width: 120px;
   height: 120px;
 }
 
-/* Version 1 for centering: using FlexBox*/
+/* Version 1 for centering: using FlexBox
+The centering is applied to the direct child. */
 .center-v1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* Version 2 for centering*/
+/* Version 2 for centering
+The centering is applied to the element that has this class.
+.center-v2 {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+*/
 
-.center-v2
+/* Version 3 for centering */
