@@ -9,7 +9,7 @@ body {
 }
 
 .thick-border-1 {
-  border: solid 5px brown;
+  border: solid 5px rgb(170, 165, 187);
 }
 /*
 .thick-border-2 {
@@ -79,7 +79,7 @@ The centering is applied to the element that has this class.
 .main-container {
   width: 820px;
   height: 280px;
-  background-color: white;
+  background-color: rgb(204, 185, 255);
 
   display: flex;
   justify-content: space-evenly;
@@ -89,5 +89,17 @@ The centering is applied to the element that has this class.
 .meme-container {
   width: 230px;
   height: 230px;
-  background-color: yellowgreen;
+  background-color: rgb(53, 34, 46);
+}
+
+#meme-square-1 {
+}
+
+#meme-square-2 {
+  background-image: url(/img/spammy-bomb-med.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+#meme-square-3 {
 }
