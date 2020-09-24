@@ -12,6 +12,6 @@ body {
 .outer-square {
   width: 360px;
   height: 360px;
-  background-color: red;
-  border: solid 60px black;
+  background-color: sandybrown;
+  border: solid 10px black;
 }
