@@ -5,29 +5,38 @@ body {
 }
 
 .color-primary {
-  background-color: cornsilk;
+  background-color: rgb(42, 43, 40);
 }
 
 body {
   background-image: url();
 }
-.thick-border {
-  border-radius: 50%;
-  border: solid 15px black;
+.thick-border-1 {
+  border: solid 10px beige;
+}
+.thick-border-2 {
+  border-width: 20px;
+  border-style: solid;
+  border-color: beige;
 }
 .outer-square {
+  margin: auto;
   width: 360px;
   height: 360px;
-  background-color: sandybrown;
+  background-color: rgb(42, 43, 40);
 }
 
 .inner-square {
+  margin: auto;
+  margin-top: 70px;
   width: 200px;
   height: 200px;
   background-color: red;
 }
 
 .inner-inner-square {
+  margin: auto;
+  margin-top: 30px;
   width: 120px;
   height: 120px;
 }
